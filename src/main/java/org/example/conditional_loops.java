@@ -1,4 +1,4 @@
-package JavaFiles;
+package org.example;
 
 
 import java.util.*;

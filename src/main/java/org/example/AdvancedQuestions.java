@@ -1,4 +1,4 @@
-package JavaFiles;
+package org.example;
 
 public class AdvancedQuestions {
     public static void main(String[] args) {
@@ -41,23 +41,39 @@ public class AdvancedQuestions {
             for (int j =1; j<=spaces; j++){
                 System.out.print(" ");
             }
-            for (int j=1;j<=5;j++){ // 5 is the main chracter here
+            for (int j=1;j<=5;j++){ // 5 is the main character here
                 System.out.print("*");
             }
             System.out.println();
         }
-        //3rd question
+        System.out.println();
+        //3rd question //numbers pyramid
         int h = 5;
-        int number =0;
         for (int i = 1; i<=h; i++){
             for(int j = 1; j<=h-i; j++){
                 System.out.print(" ");
             }
-            for (int j =1; j<=i;j++){
-                number++;
-                System.out.println(number);
+            for (int j =1; j<=i;j++) {
+                System.out.print(i + " ");
             }
+               System.out.println();
+
         }
         System.out.println();
+        // PALINDROMIC PATTERN == BOB/212
+        for (int i =1; i<=h;i++){// using int h defined in question 3
+            //spaces
+            for(int j = 1; j<=h-i;j++){
+                System.out.print(" ");
+
+            }//first half
+            for(int j=i; j>=1; j--){
+                System.out.print(j);
+            }//second half
+            for (int j =2; j<=i;j++){
+                System.out.print(j);
+            }
+            System.out.println();
+        }
     }
 }
