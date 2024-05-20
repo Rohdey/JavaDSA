@@ -1,3 +1,5 @@
+package JavaFiles;
+
 public class starRow {
     public static void main(String[]args){
 //        star pyramid

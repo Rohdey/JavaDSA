@@ -1,4 +1,4 @@
-package org.example;
+package JavaFiles;
 
 public class AdvancedQuestions {
     public static void main(String[] args) {
