@@ -2,7 +2,7 @@ package org.example;
 
 public class AdvancedQuestions {
     public static void main(String[] args) {
-                int n = 4; //butterfly
+                int n = 4; //butterfly Q1
                 for (int i = 1; i <= n; i++) { //upper half
                     // Print stars
                     for (int j = 1; j <= i; j++) {
@@ -60,7 +60,7 @@ public class AdvancedQuestions {
 
         }
         System.out.println();
-        // PALINDROMIC PATTERN == BOB/212
+        // PALINDROMIC PATTERN == BOB/212 //4TH QUESTION
         for (int i =1; i<=h;i++){// using int h defined in question 3
             //spaces
             for(int j = 1; j<=h-i;j++){
@@ -76,7 +76,7 @@ public class AdvancedQuestions {
             System.out.println();
         }
         System.out.println();
-        //diamond pattern
+        //diamond pattern //5th Question
         for (int i =1; i<=n; i++){
             for (int j=1; j<=n-i; j++){
                 System.out.print(" ");
@@ -86,7 +86,7 @@ public class AdvancedQuestions {
             }
             System.out.println();
         }
-        for (int i =n; i>=1; i--) {
+        for (int i =n; i>=1; i--) { //same s 1st question lower half
             for (int j = 1; j <= n - i; j++) {
                 System.out.print(" ");
             }
